@@ -6,80 +6,101 @@
     <title>Ideias - Casa Criativa</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <header>
-      <img src="logo.png" alt="Imagem da Logomarca" />
-      <nav>
-        <li><a href="index.html">Início</a></li>
-        <li><a href="#">Ideias</a></li>
-        <li><a href="#">Nova Ideia</a></li>
-      </nav>
-    </header>
+  <body id="page-ideias">
+    <div id="container">
+      <header>
+        <a href="index.html">
+          <img src="logo.png" alt="Imagem da Logomarca" />
+        </a>
+        <nav>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="#" class="button" onclick="onOff()">Nova Ideia</a></li>
+        </nav>
+      </header>
 
-    <section id="title">
-      <p>em exibição</p>
-      <h1>Ideias</h1>
-    </section>
-
-    <main>
-      <section id="ideias">
-        <div class="idea">
-          <img
-            src="https://image.flaticon.com/icons/svg/2729/2729007.svg"
-            alt="Imagem de curso de programação"
-          />
-          <div class="content">
-            <h3>Cursos de Programação</h3>
-            <p>Estudo</p>
-            <div class="description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Aspernatur, sequi nesciunt provident, blanditiis praesentium at
-              repudiandae placeat excepturi eos autem ad odio sint? Repellendus
-              voluptate ad deserunt recusandae, sit sapiente.
-            </div>
-            <a href="#">Ir para a ideia</a>
-          </div>
-        </div>
-
-        <div class="idea">
-          <img
-            src="https://image.flaticon.com/icons/svg/2729/2729005.svg"
-            alt="Imagem de exercícios"
-          />
-          <div class="content">
-            <h3>Exercícios</h3>
-            <p>Saúde</p>
-            <div class="description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Aspernatur, sequi nesciunt provident, blanditiis praesentium at
-              repudiandae placeat excepturi eos autem ad odio sint? Repellendus
-              voluptate ad deserunt recusandae, sit sapiente.
-            </div>
-            <a href="#">Ir para a ideia</a>
-          </div>
-        </div>
-
-        <div class="idea">
-          <img
-            src="https://image.flaticon.com/icons/svg/2729/2729027.svg"
-            alt="Imagem de meditação"
-          />
-          <div class="content">
-            <h3>Meditação</h3>
-            <p>Mentalidade</p>
-            <div class="description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Aspernatur, sequi nesciunt provident, blanditiis praesentium at
-              repudiandae placeat excepturi eos autem ad odio sint? Repellendus
-              voluptate ad deserunt recusandae, sit sapiente.
-            </div>
-            <a href="#">Ir para a ideia</a>
-          </div>
-        </div>
+      <section id="title">
+        <p>em exibição</p>
+        <h1>Ideias</h1>
       </section>
-    </main>
 
-    <footer>com ❤ <a href="#">Rocketseat</a></footer>
+      <main>
+        <section id="ideias">
+          <div class="idea">
+            <img
+              src="https://image.flaticon.com/icons/svg/2729/2729007.svg"
+              alt="Imagem de curso de programação"
+            />
+            <div class="content">
+              <h3>Cursos de Programação</h3>
+              <p>Estudo</p>
+              <div class="description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Aspernatur, sequi nesciunt provident, blanditiis praesentium at
+                repudiandae placeat excepturi eos autem ad odio sint?
+                Repellendus voluptate ad deserunt recusandae, sit sapiente.
+              </div>
+              <a href="#">Ir para a ideia</a>
+            </div>
+          </div>
+
+          <div class="idea">
+            <img
+              src="https://image.flaticon.com/icons/svg/2729/2729005.svg"
+              alt="Imagem de exercícios"
+            />
+            <div class="content">
+              <h3>Exercícios</h3>
+              <p>Saúde</p>
+              <div class="description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Aspernatur, sequi nesciunt provident, blanditiis praesentium at
+                repudiandae placeat excepturi eos autem ad odio sint?
+                Repellendus voluptate ad deserunt recusandae, sit sapiente.
+              </div>
+              <a href="#">Ir para a ideia</a>
+            </div>
+          </div>
+
+          <div class="idea">
+            <img
+              src="https://image.flaticon.com/icons/svg/2729/2729027.svg"
+              alt="Imagem de meditação"
+            />
+            <div class="content">
+              <h3>Meditação</h3>
+              <p>Mentalidade</p>
+              <div class="description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Aspernatur, sequi nesciunt provident, blanditiis praesentium at
+                repudiandae placeat excepturi eos autem ad odio sint?
+                Repellendus voluptate ad deserunt recusandae, sit sapiente.
+              </div>
+              <a href="#">Ir para a ideia</a>
+            </div>
+          </div>
+
+          <div class="idea">
+            <img
+              src="https://image.flaticon.com/icons/svg/2729/2729032.svg"
+              alt="Imagem de karaoke"
+            />
+            <div class="content">
+              <h3>Karaoke</h3>
+              <p>Diversão em Família</p>
+              <div class="description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Aspernatur, sequi nesciunt provident, blanditiis praesentium at
+                repudiandae placeat excepturi eos autem ad odio sint?
+                Repellendus voluptate ad deserunt recusandae, sit sapiente.
+              </div>
+              <a href="#">Ir para a ideia</a>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer>com ❤ <a href="#" target="_blank">Rocketseat</a></footer>
+    </div>
 
     <!-- Modal -->
 
@@ -107,7 +128,7 @@
             <label for="description"
               >Digite uma descrição para essa ideia</label
             >
-            <textarea name="description" cols="30" rows="10"></textarea>
+            <textarea name="description" cols="30" rows="5"></textarea>
           </div>
 
           <div class="input-wrapper">
